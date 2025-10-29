@@ -1,5 +1,49 @@
-# Vue 3 + TypeScript + Vite
+# Solar System Screensaver
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Красивый скринсейвер с 3D-моделью Солнечной системы, созданный с использованием Vue.js, Three.js и Electron.
+![](https://i.imgur.com/E0DMgEN.png)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Описание
+
+Главная фишка проекта:
+- Сборщик сделает любой ваш проект скринсейвером для Windows
+
+Этот проект представляет собой **ПРИМЕР** интерактивного скринсейвера, отображающий:
+
+- Солнце, Землю, Луну и Марс с реалистичными текстурами
+- Звездное поле на фоне с 10,000 звезд
+- Поддержка нескольких мониторов
+- Автоматический выход при любом пользовательском вводе
+- Также добавить свои текстуры планетам, за счет чего можно добиться множество уникальных юмористических моделей
+
+## Технологии
+
+- **Vue.js 3** + **TypeScript** - фреймворк для построения интерфейса
+- **Three.js** - 3D-графика и рендеринг
+- **Electron** - кроссплатформенное desktop-приложение
+- **Vite** - сборка проекта
+
+## Установка
+
+### Предварительные требования
+
+- Node.js (версия 20 или выше)
+- npm
+
+### Установка зависимостей
+
+```bash
+npm install
+```
+
+## Cборка
+
+```bash
+npm run build-scr
+```
+
+- После которго создатся папка **Release** в корне вашего проекта
+- В этой папке находится **.exe файл** которой нужно поменять расширение на **.scr**
+- После чего нажать ПКМ по файлу и нажать **Установить**
+- Готово, теперь ваше приложение установлено как скринсейвер
+

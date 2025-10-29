@@ -6,7 +6,7 @@
   "main": "electron.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node inline-build.cjs",
+    "build": "vite build",
     "start": "electron electron.js",
     "build-scr": "vite build && electron-packager . SolarSaver --platform=win32 --arch=x64 --overwrite --out=release"
   },
